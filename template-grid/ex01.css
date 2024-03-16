@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+  }
+  
+  .box {
+    display: grid;
+    grid-template-areas:
+      "left header right"
+      "left main right"
+      "bottom bottom bottom";
+    grid-template-columns: 300px 1fr 200px;
+    grid-template-rows: 200px 680px 100px;
+  }
+  .header {
+    grid-area: header;
+    background-color: rgb(239, 173, 209);
+  }
+  .header > a {
+    text-align: center;
+    margin: 100px;
+    font-size: 20px;
+  }
+  .left {
+    grid-area: left;
+    background-color: rgb(242, 104, 187);
+  }
+  img {
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+  }
+  .left > .box1 {
+    background-color: rgb(248, 97, 142);
+    width: 250px;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .left > .box1 > p {
+    padding-top: 25px;
+  }
+  .left > .box2 {
+    background-color: rgb(242, 129, 148);
+    width: 250px;
+    height: 200px;
+    font-size: 20px;
+  }
+  
+  .right {
+    grid-area: right;
+    background-color: rosybrown;
+  }
+  .right > #p1 {
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: rgb(241, 65, 86);
+  }
+  .right > #p2 {
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: rgb(254, 4, 129);
+  }
+  .right > #p3 {
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: rgb(228, 27, 148);
+  }
+
+  .right > h2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .main {
+    grid-area: main;
+    background-color: rgb(237, 20, 89);
+  }
+  .bottom {
+    grid-area: bottom;
+    background-color: rgb(251, 190, 209);
+  }
+  

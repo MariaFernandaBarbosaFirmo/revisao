@@ -1,0 +1,47 @@
+* {
+    background-color: rgb(255, 195, 205);
+    margin:0;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img {
+    height: 60px;
+    width: 90px;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+header > nav a:link {
+    text-decoration: none;
+}
+
+header nav > a:hover {
+    color: rgb(99, 31, 42);
+}
+
+.main {
+    display: flex;
+    height: 800px;
+}
+
+.main  > section {
+    background-color:rgb(205, 69, 90);
+    flex: 4;
+}
+
+
+footer {
+    background-color: palevioletred;
+    flex: 8;
+    height:100px
+}

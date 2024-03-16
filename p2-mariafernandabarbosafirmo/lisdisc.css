@@ -1,0 +1,103 @@
+*{
+    margin:0;
+}
+.box{
+    display: grid;
+    grid-template-areas: "head head head"
+                         "ladoE centro ladoD"
+                         "rodape rodape rodape";
+    grid-template-columns:0px 1fr 0px;
+    grid-template-rows: 20vh 80vh 10vh;
+
+}
+.header{
+    grid-area:head;
+    background-color: #D98299;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+.ladoE{
+    grid-area:ladoE;
+    background-color: #BF5065;
+    text-align: center;
+
+}
+.centro{
+    grid-area:centro;
+    background-color:#F2DCE0;
+
+    display: flex;
+    flex-direction: column;
+}
+.ladoD{
+    grid-area:ladoD;
+    background-color:#BF5065;
+    text-align: center;
+    color:antiquewhite;
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: #D98299;
+    text-align: center;
+    color: antiquewhite;
+}
+    .header >nav{
+        font-size: 30px;
+        color:crimson;
+        
+    }
+
+    .Lista{
+        margin:0;
+        background-color: #ffffff;
+       height:50px;
+       width: 220vh ;
+       color:#fe1663
+       
+
+
+
+    }
+    .header >nav >a{
+        padding-left: 50px;
+    }
+    .header >img{
+        width: 200px;
+        height: 150px;
+       
+    }
+    form{
+        display: flex;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #fe1663;
+        color: #fff;
+    }
+    
+    tr:hover {
+        background-color: #edaeae;
+    }
+    a:hover{
+        color: #F2DCE0;
+    }
+    

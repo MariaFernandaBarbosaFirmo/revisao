@@ -1,0 +1,64 @@
+* { 
+    background-color: pink;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+}
+
+header > img {
+    height: 60px;
+    width: 90px;
+}
+
+header > nav {
+    display: block;
+    justify-content: space-between;
+    margin: auto;
+}
+header > nav > a{
+    padding: 0 10px;
+}
+
+header > nav a:link {
+    text-decoration: none;
+}
+
+header nav > a:hover {
+    color: rgb(99, 31, 42);
+}
+
+.main {
+    display: flex;
+    height: 800px;
+}
+
+.main  > section {
+    background-color:rgb(255, 60, 92);
+
+    flex: 4;
+}
+
+.main > aside {
+    background-color: rgb(207, 34, 201);
+    flex: 1;
+}
+
+footer {
+    background-color: palevioletred;
+    flex: 6;
+    height: 100px;
+}
+table{
+    font-size: 24px;
+    
+}
+table,th,td{
+    margin:0 auto; 
+    border: 1px black solid;
+    
+    
+}

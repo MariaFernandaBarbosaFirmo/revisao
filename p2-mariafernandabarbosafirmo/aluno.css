@@ -1,0 +1,77 @@
+*{
+    margin:0;
+}
+
+.box{
+    display: grid;
+    grid-template-areas: "head head head"
+                         "ladoE centro ladoD"
+                         "rodape rodape rodape";
+    grid-template-columns:200px 1fr 200px;
+    grid-template-rows: 20vh 80vh 10vh;
+
+}
+.header{
+    grid-area:head;
+    background-color: #D98299;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+.ladoE{
+    grid-area:ladoE;
+    background-color: #BF5065;
+    text-align: center;
+
+}
+.centro{
+    grid-area:centro;
+    background-color:#F2DCE0;
+
+    display: flex;
+    flex-direction: column;
+}
+.ladoD{
+    grid-area:ladoD;
+    background-color:#BF5065;
+    text-align: center;
+    color:antiquewhite;
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: #D98299;
+    text-align: center;
+    color: antiquewhite;
+}
+    .header >nav{
+        font-size: 30px;
+        color:crimson;
+        
+    }
+
+    .cadastro{
+        margin:0;
+        background-color: #a6415c;
+       height:50px;
+       width: 170vh ;
+       
+
+
+
+    }
+    .header >nav >a{
+        padding-left: 50px;
+    }
+    .header >img{
+        width: 200px;
+        height: 150px;
+       
+    }
+    form{
+        display: flex;
+    }
+    
